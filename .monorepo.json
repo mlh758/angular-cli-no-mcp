@@ -13,16 +13,15 @@
       ],
       "snapshotRepo": "angular/angular-build-builds"
     },
-    "@angular/cli": {
-      "name": "Angular CLI",
+    "@mlh758/angular-cli-no-mcp": {
+      "name": "Angular CLI (No MCP)",
       "section": "Tooling",
       "links": [
         {
           "label": "README",
           "url": "/packages/angular/cli/README.md"
         }
-      ],
-      "snapshotRepo": "angular/cli-builds"
+      ]
     },
     "@angular/create": {
       "name": "Angular Create",

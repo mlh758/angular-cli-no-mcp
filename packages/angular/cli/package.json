@@ -1,7 +1,7 @@
 {
-  "name": "@angular/cli",
+  "name": "@mlh758/angular-cli-no-mcp",
   "version": "0.0.0-PLACEHOLDER",
-  "description": "CLI tool for Angular",
+  "description": "CLI tool for Angular (MCP features removed)",
   "main": "lib/cli/index.js",
   "bin": {
     "ng": "bin/ng.js"
@@ -13,21 +13,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular/angular-cli.git"
+    "url": "git+https://github.com/mlh758/angular-cli-no-mcp.git"
   },
   "author": "Angular Authors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angular/angular-cli/issues"
+    "url": "https://github.com/mlh758/angular-cli-no-mcp/issues"
   },
-  "homepage": "https://github.com/angular/angular-cli",
+  "homepage": "https://github.com/mlh758/angular-cli-no-mcp",
   "dependencies": {
     "@angular-devkit/architect": "workspace:0.0.0-EXPERIMENTAL-PLACEHOLDER",
     "@angular-devkit/core": "workspace:0.0.0-PLACEHOLDER",
     "@angular-devkit/schematics": "workspace:0.0.0-PLACEHOLDER",
     "@inquirer/prompts": "7.10.1",
     "@listr2/prompt-adapter-inquirer": "3.0.5",
-    "@modelcontextprotocol/sdk": "1.26.0",
     "@schematics/angular": "workspace:0.0.0-PLACEHOLDER",
     "@yarnpkg/lockfile": "1.1.0",
     "algoliasearch": "5.48.1",
@@ -44,7 +43,7 @@
   "ng-update": {
     "migrations": "@schematics/angular/migrations/migration-collection.json",
     "packageGroup": {
-      "@angular/cli": "0.0.0-PLACEHOLDER",
+      "@mlh758/angular-cli-no-mcp": "0.0.0-PLACEHOLDER",
       "@angular/build": "0.0.0-PLACEHOLDER",
       "@angular/ssr": "0.0.0-PLACEHOLDER",
       "@angular-devkit/architect": "0.0.0-EXPERIMENTAL-PLACEHOLDER",

@@ -14,17 +14,6 @@ package(default_visibility = ["//visibility:public"])
 
 npm_link_all_packages()
 
-genrule(
-    name = "angular_best_practices",
-    srcs = [
-        "//:node_modules/@angular/core/dir",
-    ],
-    outs = ["src/commands/mcp/resources/best-practices.md"],
-    cmd = """
-        cp "$(location //:node_modules/@angular/core/dir)/resources/best-practices.md" $@
-    """,
-)
-
 RUNTIME_ASSETS = glob(
     include = [
         "bin/**/*",
@@ -37,7 +26,6 @@ RUNTIME_ASSETS = glob(
 ) + [
     "//packages/angular/cli:lib/config/schema.json",
     "//packages/angular/cli:lib/code-examples.db",
-    ":angular_best_practices",
 ]
 
 ts_project(
@@ -63,7 +51,6 @@ ts_project(
         ":node_modules/@angular-devkit/schematics",
         ":node_modules/@inquirer/prompts",
         ":node_modules/@listr2/prompt-adapter-inquirer",
-        ":node_modules/@modelcontextprotocol/sdk",
         ":node_modules/@yarnpkg/lockfile",
         ":node_modules/algoliasearch",
         ":node_modules/ini",
@@ -139,7 +126,6 @@ ts_project(
         ":angular-cli",
         ":node_modules/@angular-devkit/core",
         ":node_modules/@angular-devkit/schematics",
-        ":node_modules/@modelcontextprotocol/sdk",
         ":node_modules/yargs",
         "//:node_modules/@types/semver",
         "//:node_modules/@types/yargs",

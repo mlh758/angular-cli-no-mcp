@@ -21,7 +21,6 @@ export type CommandNames =
   | 'generate'
   | 'lint'
   | 'make-this-awesome'
-  | 'mcp'
   | 'new'
   | 'run'
   | 'serve'
@@ -77,9 +76,6 @@ export const RootCommands: Record<
   },
   'make-this-awesome': {
     factory: () => import('./make-this-awesome/cli'),
-  },
-  'mcp': {
-    factory: () => import('./mcp/cli'),
   },
   'new': {
     factory: () => import('./new/cli'),

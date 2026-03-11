@@ -10,6 +10,8 @@
   Any changes to README.md directly will result in a failure on CI.
 -->
 
+> **Note:** This is a fork of the official Angular CLI with all MCP (Model Context Protocol) features removed. The `@modelcontextprotocol/sdk` dependency and its transitive dependencies have been stripped to reduce install size and eliminate associated CVEs. This fork aims to stay up-to-date with major and minor releases from the upstream Angular CLI. For the official Angular CLI, see [angular/angular-cli](https://github.com/angular/angular-cli).
+
 <h1 style="text-align: center">Angular CLI - The CLI tool for Angular.</h1>
 
 <p style="text-align: center">
@@ -140,7 +142,7 @@ This is a monorepo which contains many tools and packages:
 | Project | Package | Version | Links |
 |---|---|---|---|
 **Angular Build System** | [`@angular/build`](https://npmjs.com/package/@angular/build) | [![latest](https://img.shields.io/npm/v/%40angular%2Fbuild/latest.svg)](https://npmjs.com/package/@angular/build) | [![README](https://img.shields.io/badge/README--green.svg)](/packages/angular/build/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/angular-build-builds)
-**Angular CLI** | [`@angular/cli`](https://npmjs.com/package/@angular/cli) | [![latest](https://img.shields.io/npm/v/%40angular%2Fcli/latest.svg)](https://npmjs.com/package/@angular/cli) | [![README](https://img.shields.io/badge/README--green.svg)](/packages/angular/cli/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/cli-builds)
+**Angular CLI (No MCP)** | [`@mlh758/angular-cli-no-mcp`](https://npmjs.com/package/@mlh758/angular-cli-no-mcp) | [![latest](https://img.shields.io/npm/v/%40mlh758%2Fangular-cli-no-mcp/latest.svg)](https://npmjs.com/package/@mlh758/angular-cli-no-mcp) | [![README](https://img.shields.io/badge/README--green.svg)](/packages/angular/cli/README.md)
 **Architect CLI** | [`@angular-devkit/architect-cli`](https://npmjs.com/package/@angular-devkit/architect-cli) | [![latest](https://img.shields.io/npm/v/%40angular-devkit%2Farchitect-cli/latest.svg)](https://npmjs.com/package/@angular-devkit/architect-cli) |  [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/angular-devkit-architect-cli-builds)
 **Schematics CLI** | [`@angular-devkit/schematics-cli`](https://npmjs.com/package/@angular-devkit/schematics-cli) | [![latest](https://img.shields.io/npm/v/%40angular-devkit%2Fschematics-cli/latest.svg)](https://npmjs.com/package/@angular-devkit/schematics-cli) |  [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/angular-devkit-schematics-cli-builds)
 

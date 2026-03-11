@@ -212,7 +212,7 @@ The scope should be the name of the npm package affected as perceived by the per
 The following is the list of supported scopes:
 
 * **@angular/build**
-* **@angular/cli**
+* **@mlh758/angular-cli-no-mcp**
 * **@angular/create**
 * **@angular/pwa**
 * **@angular/ssr**
